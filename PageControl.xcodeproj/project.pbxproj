@@ -12,6 +12,12 @@
 		E71BB5171E5D25160093185F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5151E5D25160093185F /* Main.storyboard */; };
 		E71BB5191E5D25160093185F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5181E5D25160093185F /* Assets.xcassets */; };
 		E71BB51C1E5D25160093185F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71BB51A1E5D25160093185F /* LaunchScreen.storyboard */; };
+		E71BB52A1E5D274C0093185F /* 까보.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5241E5D274C0093185F /* 까보.jpg */; };
+		E71BB52B1E5D274C0093185F /* 콜로세움.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5251E5D274C0093185F /* 콜로세움.jpg */; };
+		E71BB52C1E5D274C0093185F /* 거짓말.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5261E5D274C0093185F /* 거짓말.jpg */; };
+		E71BB52D1E5D274C0093185F /* 바티칸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5271E5D274C0093185F /* 바티칸.jpg */; };
+		E71BB52E1E5D274C0093185F /* 알이탈리아.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5281E5D274C0093185F /* 알이탈리아.jpg */; };
+		E71BB52F1E5D274C0093185F /* 스페인계단.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E71BB5291E5D274C0093185F /* 스페인계단.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		E71BB5181E5D25160093185F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71BB51B1E5D25160093185F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E71BB51D1E5D25160093185F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71BB5241E5D274C0093185F /* 까보.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "까보.jpg"; sourceTree = "<group>"; };
+		E71BB5251E5D274C0093185F /* 콜로세움.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "콜로세움.jpg"; sourceTree = "<group>"; };
+		E71BB5261E5D274C0093185F /* 거짓말.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "거짓말.jpg"; sourceTree = "<group>"; };
+		E71BB5271E5D274C0093185F /* 바티칸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "바티칸.jpg"; sourceTree = "<group>"; };
+		E71BB5281E5D274C0093185F /* 알이탈리아.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "알이탈리아.jpg"; sourceTree = "<group>"; };
+		E71BB5291E5D274C0093185F /* 스페인계단.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "스페인계단.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		E71BB5101E5D25160093185F /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				E71BB5231E5D27330093185F /* images */,
 				E71BB5111E5D25160093185F /* AppDelegate.swift */,
 				E71BB5131E5D25160093185F /* ViewController.swift */,
 				E71BB5151E5D25160093185F /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				E71BB51D1E5D25160093185F /* Info.plist */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		E71BB5231E5D27330093185F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E71BB5241E5D274C0093185F /* 까보.jpg */,
+				E71BB5251E5D274C0093185F /* 콜로세움.jpg */,
+				E71BB5261E5D274C0093185F /* 거짓말.jpg */,
+				E71BB5271E5D274C0093185F /* 바티칸.jpg */,
+				E71BB5281E5D274C0093185F /* 알이탈리아.jpg */,
+				E71BB5291E5D274C0093185F /* 스페인계단.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +150,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71BB52E1E5D274C0093185F /* 알이탈리아.jpg in Resources */,
 				E71BB51C1E5D25160093185F /* LaunchScreen.storyboard in Resources */,
+				E71BB52A1E5D274C0093185F /* 까보.jpg in Resources */,
 				E71BB5191E5D25160093185F /* Assets.xcassets in Resources */,
+				E71BB52D1E5D274C0093185F /* 바티칸.jpg in Resources */,
 				E71BB5171E5D25160093185F /* Main.storyboard in Resources */,
+				E71BB52B1E5D274C0093185F /* 콜로세움.jpg in Resources */,
+				E71BB52C1E5D274C0093185F /* 거짓말.jpg in Resources */,
+				E71BB52F1E5D274C0093185F /* 스페인계단.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
